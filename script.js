@@ -18,6 +18,12 @@ function Employee(name, age, jobTitle) {
 	}
 }
 
+const person = new Person("Alice",25);
+console.log(person.greet);
+
+const employee = new Employee("Bob", 30, "Manager");
+console.log(employee.jobGreet);
+
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
